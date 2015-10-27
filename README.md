@@ -11,7 +11,7 @@
 
 self.getter= [[WebNailGetter alloc] init];
 
-[self.getter getImageWithAddress:{URL STRING}
+[self.getter getImageWithAddress:@"http://www.google.com" //Target URL
                       onComplete:^(NSString *url, UIImage *nail) {
                           //Target URL
                           //Thumbnail Image
