@@ -40,3 +40,4 @@ UIImage *img= [self imageFromView:_webView];
 
 ###TODO
 - 여러번 요청이 겹칠때 쓰레딩 처리
+- 웹페이지 그대로 캡춰하지 않고 주요 이미지만 추출해서 생성하기
